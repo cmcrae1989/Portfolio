@@ -1,0 +1,21 @@
+div.hero {
+    background-color: #222529;
+    padding: 70px 85px;
+}
+div.hero > p {
+    color: grey;
+}
+div.hero h1 {
+    color: white;
+}
+
+div.hero h1 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+div.hero p {
+    margin-bottom: 10px;
+    color: #f3f3f3;
+}
+
