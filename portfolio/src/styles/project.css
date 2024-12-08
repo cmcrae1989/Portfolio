@@ -11,6 +11,13 @@ div.accordion-item {
     background-color: #3d434a;
     color: #f3f3f3;
 }
+.project-card.card-body {
+    display: flex;
+}
+div.project-card-left,
+div.project-card-right {
+    width: 50%;
+}
 
 div.accordion-item > h2.accordion-header {
     background-color: #3d434a;
@@ -24,3 +31,4 @@ button.accordion-button {
 div.accordion-item h2.accordion-header {
     background-color: #222529;
 }
+

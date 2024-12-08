@@ -1,8 +1,11 @@
 import * as React from 'react';
 import {Button, Form} from "react-bootstrap";
 import '../styles/contactForm.css';
+import FormModal from "./FormModal";
+
 
 export default function ContactForm() {
+    const [modalShow, setModalShow] = React.useState(false);
     return (
 
         <div className="contactForm" id="contact">
@@ -23,9 +26,12 @@ export default function ContactForm() {
                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
                     <Form.Check type="checkbox" label="Check if you'd like a reply at the email listed above"/>
                 </Form.Group>
-                <Button variant="primary" type="submit">
+                <Button variant="primary" type="submit" onClick={() => setModalShow(true)}>
                     Submit
                 </Button>
+                <FormModal
+                    show={modalShow}
+                    onHide={() => setModalShow(false)}/>/>
             </Form>
         </div>
     )

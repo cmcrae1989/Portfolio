@@ -7,7 +7,7 @@ export default function Hero() {
 
             //TODO figure out stying for p tag
         <div className="hero" id="about">
-            <p className="grey-text">HELLO MY NAME IS</p>
+            <p className="grey-text">hello my name is</p>
             <h1>Cameron McRae</h1>
             <h1><Typewriter text="I am a Web Developer" delay={100} /></h1>
         </div>

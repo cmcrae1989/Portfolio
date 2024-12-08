@@ -4,6 +4,8 @@ div.hero {
 }
 div.hero p.grey-text {
     color: #9a9999;
+    font-variant: small-caps;
+    font-size: 1.8em;
 }
 div.hero h1 {
     color: white;

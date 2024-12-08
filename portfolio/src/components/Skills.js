@@ -55,8 +55,15 @@ export default function Skills() {
                                 <Card>
                                     <Card.Body>
                                         <Card.Title>
-                                            <h5>React.js</h5>
+                                            <h3 className="grey-text">Experience: 1.5 years self-taught</h3>
                                         </Card.Title>
+                                        <p>
+                                            Shortly after learning the basics of html, css, and
+                                            javaScript I moved on to learn React.js. This is where I
+                                            built the majority of my web applications. I quickly fell
+                                            in love with its simple learning curve, ease of use and
+                                            its broad array of features.
+                                        </p>
                                     </Card.Body>
                                 </Card>
                             </Tab.Pane>
@@ -64,8 +71,13 @@ export default function Skills() {
                                 <Card>
                                     <Card.Body>
                                         <Card.Title>
-                                            <h5>Angular</h5>
+                                            <h3 className="grey-text">Experience: JavaScript Frameworks Class</h3>
                                         </Card.Title>
+                                        <p>
+                                            This is my second go-to JavaScript framework. There is definitely
+                                            a learning curve here, but once adapted to the workflow there
+                                            are seemingly endless possibilities to this front-end technology
+                                        </p>
                                     </Card.Body>
                                 </Card>
                             </Tab.Pane>
@@ -73,8 +85,13 @@ export default function Skills() {
                                 <Card>
                                     <Card.Body>
                                         <Card.Title>
-                                            <h5>Java</h5>
+                                            <h3 className="grey-text">Experience: Java Class for Three Semesters</h3>
                                         </Card.Title>
+                                        <p>
+                                            Although its not specifically a web technology, java has
+                                            become one of my favourite programming languages. Two of my
+                                            projects listed above were build almost explicitly using java
+                                        </p>
                                     </Card.Body>
                                 </Card>
                             </Tab.Pane>
@@ -82,8 +99,14 @@ export default function Skills() {
                                 <Card>
                                     <Card.Body>
                                         <Card.Title>
-                                            <h5>PHP</h5>
+                                            <h3 className="grey-text">Experience: Two Semesters of PHP Class</h3>
                                         </Card.Title>
+                                        <p>
+                                            php is another language that has quickly become a favourite of
+                                            mine. It has a very unique syntax that I've grown to enjoy, and
+                                            it is so easily integrated into almost any web project. my third
+                                            project listed above was using php.
+                                        </p>
                                     </Card.Body>
                                 </Card>
                             </Tab.Pane>
@@ -91,8 +114,14 @@ export default function Skills() {
                                 <Card>
                                     <Card.Body>
                                         <Card.Title>
-                                            <h5>HTML</h5>
+                                            <h3 className="grey-text">Experience: 1.5 years self-taught plus two classes</h3>
                                         </Card.Title>
+                                        <p>
+                                            HTML is one of the first web technologies that I learned to use, it is
+                                            simple, easy to use, and very easy to read. After 1.5 years of learning
+                                            HTML in tandem with CSS, I had multiple courses in school that helped
+                                            solidify and build upon my foundational knowledge.
+                                        </p>
                                     </Card.Body>
                                 </Card>
                             </Tab.Pane>
@@ -100,8 +129,14 @@ export default function Skills() {
                                 <Card>
                                     <Card.Body>
                                         <Card.Title>
-                                            <h5>CSS</h5>
+                                            <h3 className="grey-text">Experience: 1.5 years self-taught plus two classes</h3>
                                         </Card.Title>
+                                        <p>
+                                            CSS is one of the first web technologies that I learned to use, it is
+                                            simple, easy to use, and very easy to read. After 1.5 years of learning
+                                            CSS in tandem with HTML, I had multiple courses in school that helped
+                                            solidify and build upon my foundational knowledge.
+                                        </p>
                                     </Card.Body>
                                 </Card>
                             </Tab.Pane>
