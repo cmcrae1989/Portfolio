@@ -1,0 +1,26 @@
+div.projects {
+    background-color: #222529;
+    padding: 70px 85px;
+}
+div.projects h1 {
+    color: white;
+    margin-bottom: 30px;
+}
+
+div.accordion-item {
+    background-color: #3d434a;
+    color: #f3f3f3;
+}
+
+div.accordion-item > h2.accordion-header {
+    background-color: #3d434a;
+    color: #f3f3f3;
+}
+button.accordion-button {
+    background-color: #3d434a;
+    color: #f3f3f3;
+}
+
+div.accordion-item h2.accordion-header {
+    background-color: #222529;
+}
