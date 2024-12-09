@@ -1,0 +1,16 @@
+@media screen and (max-width: 865px) {
+    div.hero,
+    div.projects,
+    div.skills,
+    div.contactForm {
+        padding: 70px 50px;
+    }
+}
+@media screen and (max-width: 387px) {
+    div.hero,
+    div.projects,
+    div.skills,
+    div.contactForm {
+        padding: 70px 30px;
+    }
+}

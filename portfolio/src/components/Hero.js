@@ -4,8 +4,6 @@ import Typewriter from "./Typewriter";
 
 export default function Hero() {
     return (
-
-            //TODO figure out stying for p tag
         <div className="hero" id="about">
             <p className="grey-text">hello my name is</p>
             <h1>Cameron McRae</h1>

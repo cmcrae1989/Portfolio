@@ -6,6 +6,7 @@ import ContactForm from "./components/ContactForm";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Skills from "./components/Skills";
+import './styles/queries.css';
 
 function App() {
   return (

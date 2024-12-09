@@ -44,9 +44,9 @@ export default function Projects() {
                                 <Card.Body>
                                     <div>
                                         <h3>Description</h3>
-                                        <p>Javafx program based off of https://www.coolmathgames.com/0-worlds-hardest-game
-                                            *group project where I collaborated with two other students
-                                            *my portion involved level design/implementation and all in-game mechanics
+                                        <p>Javafx program based off of https://www.coolmathgames.com/0-worlds-hardest-game.
+                                            This was a group project where I collaborated with two other students.
+                                            My portion involved level design/implementation and all in-game mechanics
                                         </p>
                                     </div>
                                     <div>

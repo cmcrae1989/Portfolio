@@ -6,6 +6,9 @@ div.projects h1 {
     color: white;
     margin-bottom: 30px;
 }
+div.accordion-body {
+    padding : 30px;
+}
 
 div.accordion-item {
     background-color: #3d434a;
@@ -30,5 +33,19 @@ button.accordion-button {
 
 div.accordion-item h2.accordion-header {
     background-color: #222529;
+}
+
+div.card-body {
+    padding: 30px;
+
+}
+div.card-body h3 {
+    font-weight: bold;
+}
+div.card-body p {
+    font-family: Montserrat, sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    margin-top: 20px;
 }
 
