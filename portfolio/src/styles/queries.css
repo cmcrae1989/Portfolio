@@ -3,14 +3,37 @@
     div.projects,
     div.skills,
     div.contactForm {
-        padding: 70px 50px;
+        padding: 50px 50px;
     }
 }
-@media screen and (max-width: 387px) {
+@media screen and (max-width: 629px) {
+    div.vstack {
+        padding: 0;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 592px) {
+    .mx-5 {
+        justify-content: start;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 575px) {
+    div.col-sm-4 {
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 430px) {
     div.hero,
     div.projects,
     div.skills,
     div.contactForm {
-        padding: 70px 30px;
+        padding: 30px 30px;
+    }
+    div.card-body {
+        padding: 10px;
+    }
+    div.accordion-body {
+        padding : 10px;
     }
 }

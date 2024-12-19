@@ -4,19 +4,23 @@ div.hero {
 }
 div.hero p.grey-text {
     color: #9a9999;
-    font-variant: small-caps;
-    font-size: 1.6em;
+    /*font-variant: small-caps;*/
+    font-size: 1.3em;
+    margin-bottom: 30px;
 }
 div.hero h1 {
     color: white;
-}
-
-div.hero h1 {
+    font-size: 3em;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
+
+div.hero h2 {
+    color: white;
+}
 div.hero p {
     margin-bottom: 10px;
     color: #f3f3f3;
+    max-width: 30vw;
 }

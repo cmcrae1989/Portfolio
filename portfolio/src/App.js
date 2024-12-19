@@ -7,16 +7,21 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Skills from "./components/Skills";
 import './styles/queries.css';
+import Work from "./components/Work";
 
 function App() {
   return (
-      <div>
-          <Header />
-          <Hero />
-          <Projects />
-          <Skills />
-          <ContactForm />
-          <Footer />
+      <div className="main-container">
+          <div className="fixed-container">
+            <Hero />
+          </div>
+          <div className="scroll-container">
+              <Projects />
+              <Skills />
+              <Work />
+              <ContactForm />
+              <Footer />
+          </div>
       </div>
       );
 }

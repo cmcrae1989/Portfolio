@@ -1,6 +1,6 @@
 div.projects {
     background-color: #222529;
-    padding: 70px 85px;
+    padding: 70px 85px 70px 50px;
 }
 div.projects h1 {
     color: white;
@@ -13,13 +13,6 @@ div.accordion-body {
 div.accordion-item {
     background-color: #3d434a;
     color: #f3f3f3;
-}
-.project-card.card-body {
-    display: flex;
-}
-div.project-card-left,
-div.project-card-right {
-    width: 50%;
 }
 
 div.accordion-item > h2.accordion-header {
@@ -37,7 +30,6 @@ div.accordion-item h2.accordion-header {
 
 div.card-body {
     padding: 30px;
-
 }
 div.card-body h3 {
     font-weight: bold;

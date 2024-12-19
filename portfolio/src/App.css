@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 html, body {
   overflow-x: hidden;
 }
@@ -19,4 +22,31 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
   monospace;
+}
+
+.main-container {
+  display: flex;
+  height: 100vh; /* Full height of the viewport */
+}
+
+/* Fixed section (left side) */
+.fixed-container {
+  width: 40%;
+  background-color: #222529;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;  /* Full height */
+  padding: 20px;
+  /*overflow: hidden;  !* No scrolling here *!*/
+}
+
+/* Scrollable section (right side) */
+.scroll-container {
+  width: 60%;
+  margin-left: 40%; /* Shift it to the right half */
+  height: 100%;
+  overflow-y: auto;  /* Makes this section scrollable */
+  background-color: #222529;
+  padding: 20px;
 }

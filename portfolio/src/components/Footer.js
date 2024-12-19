@@ -25,10 +25,10 @@ export default function Footer() {
                     <Col>
                         <Nav className="flex-column fs-5">
                             <p>Useful Links</p>
-                            <NavLink href="#" className="text-white">About</NavLink>
-                            <NavLink href="#" className="text-white">Projects</NavLink>
-                            <NavLink href="#" className="text-white">Skills</NavLink>
-                            <NavLink href="#" className="text-white">Contact</NavLink>
+                            <NavLink href="#about" className="text-white">About</NavLink>
+                            <NavLink href="#projects" className="text-white">Projects</NavLink>
+                            <NavLink href="#skills" className="text-white">Skills</NavLink>
+                            <NavLink href="#contact" className="text-white">Contact</NavLink>
                         </Nav>
                     </Col>
                     <Col>
@@ -37,7 +37,6 @@ export default function Footer() {
                         <p>phone: +1(226)350-3953</p>
                     </Col>
                 </Row>
-
             </Container>
         </footer>
     )
