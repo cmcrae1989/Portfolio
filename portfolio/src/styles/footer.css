@@ -1,0 +1,8 @@
+footer.footer {
+    padding:  50px 85px 70px 50px;
+}
+
+footer .footer-text {
+    color: #f3f3f3;
+    max-width: 30rem;
+}

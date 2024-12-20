@@ -1,21 +1,52 @@
 div.work {
     background-color: #222529;
-    padding: 70px 85px 70px 50px;
+    padding: 70px 85px 70px 20px;
 }
 
 div.work h1 {
     color: white;
     margin-bottom: 30px;
+    padding-left: 30px;
 }
 div.work div.card {
     border: 1px solid #222529;
 }
 div.work div.card-body {
     background-color: #222529;
+    transition: .2s;
 }
 div.work div.card-body:hover {
     background-color: rgb(34, 37, 41, .9);
 }
 div.work div.card:hover {
     border: 1px solid #222529;
+}
+div.card-body-left,
+div.card-body-right {
+    display: inline-block;
+    vertical-align: top;
+}
+div.card-body-right {
+    margin-left: 40px;
+}
+div.card-body-left {
+    vertical-align: text-top;
+}
+.card-body-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+div p.date-text {
+    color: grey;
+    margin: 0;
+}
+div h3.body-text,
+div p.body-text {
+    font-family: Montserrat, sans-serif;
+    color: #f3f3f3;
+    max-width: 30vw;
 }

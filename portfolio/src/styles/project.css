@@ -13,6 +13,7 @@ div.accordion-body {
 div.accordion-item {
     background-color: #3d434a;
     color: #f3f3f3;
+    border: 1px solid #222529;
 }
 
 div.accordion-item > h2.accordion-header {
@@ -22,6 +23,10 @@ div.accordion-item > h2.accordion-header {
 button.accordion-button {
     background-color: #3d434a;
     color: #f3f3f3;
+}
+.accordion-button:not(.collapsed) {
+    background-color: rgb(174, 181, 188); /* Text color */
+    box-shadow: none;
 }
 
 div.accordion-item h2.accordion-header {
@@ -40,4 +45,3 @@ div.card-body p {
     letter-spacing: 1px;
     margin-top: 20px;
 }
-
