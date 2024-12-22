@@ -50,3 +50,7 @@ code {
   background-color: #222529;
   padding: 20px;
 }
+
+section {
+  min-height: 20px;
+}

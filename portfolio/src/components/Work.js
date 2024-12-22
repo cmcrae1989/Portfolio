@@ -21,10 +21,10 @@ export default function work() {
             <Card>
                 <Card.Body>
                     <div className="card-body-left">
-                        <p className="date-text">2024 - present</p>
+                        <p className="date-text">2022 - 2024</p>
                     </div>
                     <div className="card-body-right">
-                        <h3 className="body-text">Family Respite Services</h3>
+                        <h3 className="body-text">Home Instead</h3>
                         <p className="body-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At commodi eaque fugit inventore iusto, nulla quasi vero. Dolor dolorem expedita iste quaerat quis. Amet atque corporis doloremque harum repellendus! Architecto!</p>
                     </div>
                 </Card.Body>
@@ -32,10 +32,10 @@ export default function work() {
             <Card>
                 <Card.Body>
                     <div className="card-body-left">
-                        <p className="date-text">2024 - present</p>
+                        <p className="date-text">2020 - 2022</p>
                     </div>
                     <div className="card-body-right">
-                        <h3 className="body-text">Family Respite Services</h3>
+                        <h3 className="body-text">Village at St. Clair</h3>
                         <p className="body-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At commodi eaque fugit inventore iusto, nulla quasi vero. Dolor dolorem expedita iste quaerat quis. Amet atque corporis doloremque harum repellendus! Architecto!</p>
                     </div>
                 </Card.Body>

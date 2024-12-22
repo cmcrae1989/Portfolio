@@ -1,54 +1,83 @@
-// import * as React from 'react';
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import'../styles/header.css'
+import {useEffect, useState} from "react";
 
 function Header() {
+    // State to keep track of the active section
+    const [activeSection, setActiveSection] = useState('');
+
+    useEffect(() => {
+        const sections = document.querySelectorAll('section'); // All sections
+        const observerOptions = {
+            root: null, // Observe within the viewport
+            rootMargin: '0px 0px -100% 0px', // No margin to the viewport
+            threshold: 0, // Trigger when 50% of the section is visible
+        };
+
+        const handleIntersection = (entries) => {
+            entries.forEach((entry) => {
+                console.log(entry.target.id, entry.isIntersecting, entry.intersectionRatio);
+                if (entry.isIntersecting) {
+                    // When the section is 50% in view, set it as the active section
+                    setActiveSection(entry.target.id);
+                }
+            });
+        };
+
+        const observer = new IntersectionObserver(handleIntersection, observerOptions);
+
+        // Observe each section
+        sections.forEach((section) => {
+            observer.observe(section);
+        });
+
+        // Cleanup observer on unmount
+        return () => {
+            observer.disconnect();
+        };
+    }, []);
     return (
-        // <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary header-container">
-        //     <Container>
-        //         <Navbar.Brand href="#home">Cameron McRae</Navbar.Brand>
-        //         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        //         <Navbar.Collapse id="responsive-navbar-nav">
-        //             <Nav className="me-auto">
-        //                 <Nav.Link href="#about">About</Nav.Link>
-        //                 <Nav.Link href="#projects">Projects</Nav.Link>
-        //                 <Nav.Link href="#skills">Skills</Nav.Link>
-        //             </Nav>
-        //             <Nav>
-        //
-        //                 <Nav.Link href="#contact">
-        //                     Contact
-        //                 </Nav.Link>
-        //             </Nav>
-        //         </Navbar.Collapse>
-        //     </Container>
-        // </Navbar>
         <div>
-            <Navbar className="bg-secondary">
+            <Navbar className={activeSection === 'projects' ? 'bg-primary' : 'bg-secondary'}>
                 <Container>
-                    <Navbar.Brand href="#home">Projects</Navbar.Brand>
+                    <Navbar.Brand
+                        href="#projects"
+                        className={activeSection === 'projects' ? 'active' : ''}
+                    >
+                        Projects
+                    </Navbar.Brand>
                 </Container>
             </Navbar>
             <br />
-            <Navbar className="bg-secondary">
+            <Navbar className={activeSection === 'skills' ? 'bg-primary' : 'bg-secondary'}>
                 <Container>
-                    <Navbar.Brand>Skills</Navbar.Brand>
+                    <Navbar.Brand
+                        href="#skills"
+                        className={activeSection === 'skills' ? 'active' : ''}
+                    >
+                        Skills
+                    </Navbar.Brand>
                 </Container>
             </Navbar>
             <br />
-            <Navbar className="bg-secondary">
+            <Navbar className={activeSection === 'work' ? 'bg-primary' : 'bg-secondary'}>
                 <Container>
-                    <Navbar.Brand href="#home">
+                    <Navbar.Brand
+                        href="#work"
+                        className={activeSection === 'work' ? 'active' : ''}
+                    >
                         Work
                     </Navbar.Brand>
                 </Container>
             </Navbar>
             <br />
-            <Navbar className="bg-secondary">
+            <Navbar className={activeSection === 'contact' ? 'bg-primary' : 'bg-secondary'}>
                 <Container>
-                    <Navbar.Brand href="#projects">
+                    <Navbar.Brand
+                        href="#contact"
+                        className={activeSection === 'contact' ? 'active' : ''}
+                    >
                         Contact
                     </Navbar.Brand>
                 </Container>
@@ -56,5 +85,4 @@ function Header() {
         </div>
     );
 }
-
 export default Header;

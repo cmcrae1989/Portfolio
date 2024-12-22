@@ -31,6 +31,7 @@ div.card-body-right {
 }
 div.card-body-left {
     vertical-align: text-top;
+    min-width: 9vw;
 }
 .card-body-container {
     display: flex;
