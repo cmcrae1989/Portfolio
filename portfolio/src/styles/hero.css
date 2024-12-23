@@ -4,7 +4,6 @@ div.hero {
 }
 div.hero p.grey-text {
     color: #9a9999;
-    /*font-variant: small-caps;*/
     font-size: 1.3em;
     margin-bottom: 30px;
 }
@@ -22,5 +21,5 @@ div.hero h2 {
 div.hero p {
     margin-bottom: 10px;
     color: #f3f3f3;
-    max-width: 30vw;
+    max-width: 530px;
 }

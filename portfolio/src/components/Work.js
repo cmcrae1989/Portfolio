@@ -11,6 +11,17 @@ export default function work() {
                         <p className="date-text">2024 - present</p>
                     </div>
                     <div className="card-body-right">
+                        <h3 className="body-text">St. Clair College</h3>
+                        <p className="body-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At commodi eaque fugit inventore iusto, nulla quasi vero. Dolor dolorem expedita iste quaerat quis. Amet atque corporis doloremque harum repellendus! Architecto!</p>
+                    </div>
+                </Card.Body>
+            </Card>
+            <Card>
+                <Card.Body>
+                    <div className="card-body-left">
+                        <p className="date-text">2024 - present</p>
+                    </div>
+                    <div className="card-body-right">
                         <h3 className="body-text">Family Respite Services</h3>
                         <p className="body-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At commodi
                             eaque fugit inventore iusto, nulla quasi vero. Dolor dolorem expedita iste quaerat quis.
@@ -25,17 +36,6 @@ export default function work() {
                     </div>
                     <div className="card-body-right">
                         <h3 className="body-text">Home Instead</h3>
-                        <p className="body-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At commodi eaque fugit inventore iusto, nulla quasi vero. Dolor dolorem expedita iste quaerat quis. Amet atque corporis doloremque harum repellendus! Architecto!</p>
-                    </div>
-                </Card.Body>
-            </Card>
-            <Card>
-                <Card.Body>
-                    <div className="card-body-left">
-                        <p className="date-text">2020 - 2022</p>
-                    </div>
-                    <div className="card-body-right">
-                        <h3 className="body-text">Village at St. Clair</h3>
                         <p className="body-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At commodi eaque fugit inventore iusto, nulla quasi vero. Dolor dolorem expedita iste quaerat quis. Amet atque corporis doloremque harum repellendus! Architecto!</p>
                     </div>
                 </Card.Body>

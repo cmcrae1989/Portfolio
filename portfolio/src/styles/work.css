@@ -2,7 +2,6 @@ div.work {
     background-color: #222529;
     padding: 70px 85px 70px 20px;
 }
-
 div.work h1 {
     color: white;
     margin-bottom: 30px;
@@ -35,12 +34,7 @@ div.card-body-left {
 }
 .card-body-container {
     display: flex;
-    justify-content: space-between;
 }
-
-
-
-
 div p.date-text {
     color: grey;
     margin: 0;

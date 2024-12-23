@@ -1,9 +1,59 @@
+@media screen and (max-width: 1080px) {
+    div.main-container {
+        flex-direction: column;
+        height: auto;
+    }
+    .fixed-container {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .scroll-container {
+        width: 100%;
+        margin-left: 0;
+        height: auto;
+    }
+    div.hero p {
+        max-width: 325px;
+    }
+    div.hero,
+    div.projects,
+    div.skills,
+    div.contactForm {
+        padding: 40px;
+    }
+    div.work {
+        padding: 40px 10px;
+    }
+    div h3.body-text,
+    div p.body-text {
+        max-width: 60vw;
+    }
+    p.date-text {
+        min-width: 200px;
+    }
+
+}
 @media screen and (max-width: 865px) {
     div.hero,
     div.projects,
     div.skills,
     div.contactForm {
         padding: 50px 50px;
+    }
+    div.card-body-left,
+    div.card-body-right {
+        display: block;
+    }
+    div.card-body-right {
+        margin: 0;
+    }
+    div h3.body-text,
+    div p.body-text {
+        max-width: 80vw;
+    }
+    p.date-text {
+        padding-bottom: 10px;
     }
 }
 @media screen and (max-width: 629px) {
