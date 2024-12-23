@@ -1,16 +1,7 @@
-/*nav.header-container {*/
-/*    padding: 15px;*/
-/*    background-color: rgb(49, 108, 244);*/
-/*}*/
-
 nav.bg-secondary,
 nav.bg-primary {
     border-radius: 5px;
 }
-nav.bg-secondary.active {
-    background-color: white;
-}
-
 .navbar-brand.active {
     color: #f3f3f3; /* Active link color (e.g., white) */
     font-weight: bold; /* Make the active link bold */

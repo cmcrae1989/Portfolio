@@ -13,3 +13,9 @@ div.mb-3 {
 div.mb-3 label {
    color: white;
 }
+span.error-text {
+    color: red;
+}
+.form-control {
+    margin-bottom: 10px;
+}

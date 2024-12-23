@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import'../styles/header.css'
 import {useEffect, useState} from "react";
+import IconNavBar from "./IconNavBar";
 
 function Header() {
     // State to keep track of the active section
@@ -82,6 +83,7 @@ function Header() {
                     </Navbar.Brand>
                 </Container>
             </Navbar>
+            <IconNavBar/>
         </div>
     );
 }
