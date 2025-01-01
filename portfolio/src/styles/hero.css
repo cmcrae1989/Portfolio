@@ -1,6 +1,6 @@
-div.hero {
+.hero {
     background-color: #222529;
-    padding: 70px 85px;
+    margin: 70px 85px;
 }
 div.hero p.grey-text {
     color: #9a9999;

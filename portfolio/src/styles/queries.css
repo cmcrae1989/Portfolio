@@ -20,33 +20,38 @@
     div.projects,
     div.skills,
     div.contactForm {
-        padding: 40px;
+        margin: 40px;
     }
     div.work {
-        padding: 40px 10px;
+        padding: 10px;
     }
     div h3.body-text,
     div p.body-text {
-        max-width: 60vw;
+        min-width: 500px;
     }
     p.date-text {
         min-width: 200px;
     }
-
+}
+@media screen and (max-width: 930px) {
+    h3.body-text,
+    p.body-text {
+        display: block;
+    }
+    div.work div.card-body-right {
+        margin-left: 0;
+    }
 }
 @media screen and (max-width: 865px) {
-    div.hero,
-    div.projects,
-    div.skills,
-    div.contactForm {
-        padding: 50px 50px;
-    }
+    /*div.hero,*/
+    /*div.projects,*/
+    /*div.skills,*/
+    /*div.contactForm {*/
+    /*    padding: 50px 50px;*/
+    /*}*/
     div.card-body-left,
     div.card-body-right {
         display: block;
-    }
-    div.card-body-right {
-        margin: 0;
     }
     div h3.body-text,
     div p.body-text {

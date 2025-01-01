@@ -1,6 +1,6 @@
-div.contactForm {
+.contactForm {
     background-color: #222529;
-    padding: 70px 85px 70px 50px;
+    margin: 70px 85px 70px 50px;
 }
 div.contactForm h1 {
     color: white;
