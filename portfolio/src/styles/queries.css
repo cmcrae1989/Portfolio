@@ -27,35 +27,24 @@
     }
     div h3.body-text,
     div p.body-text {
-        min-width: 500px;
+        min-width: 100%;
     }
     p.date-text {
         min-width: 200px;
     }
 }
 @media screen and (max-width: 930px) {
-    h3.body-text,
-    p.body-text {
-        display: block;
-    }
     div.work div.card-body-right {
         margin-left: 0;
     }
 }
 @media screen and (max-width: 865px) {
-    /*div.hero,*/
-    /*div.projects,*/
-    /*div.skills,*/
-    /*div.contactForm {*/
-    /*    padding: 50px 50px;*/
-    /*}*/
     div.card-body-left,
     div.card-body-right {
         display: block;
     }
-    div h3.body-text,
-    div p.body-text {
-        max-width: 80vw;
+    div.card-body-right {
+        overflow: hidden;
     }
     p.date-text {
         padding-bottom: 10px;
@@ -66,11 +55,18 @@
         padding: 0;
         margin: 0;
     }
+    div.work {
+        padding-right: 0;
+        padding-left: 15px;
+    }
 }
 @media screen and (max-width: 592px) {
     .mx-5 {
         justify-content: start;
         margin: 0;
+    }
+    div.card-body-right {
+        max-width: 100%;
     }
 }
 @media screen and (max-width: 575px) {
@@ -79,12 +75,6 @@
     }
 }
 @media screen and (max-width: 430px) {
-    div.hero,
-    div.projects,
-    div.skills,
-    div.contactForm {
-        padding: 30px 30px;
-    }
     div.card-body {
         padding: 10px;
     }

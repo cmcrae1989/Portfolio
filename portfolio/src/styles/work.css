@@ -39,9 +39,9 @@ div p.date-text {
     color: grey;
     margin: 0;
 }
-div h3.body-text,
-div p.body-text {
+h3.body-text,
+p.body-text {
     font-family: Montserrat, sans-serif;
     color: #f3f3f3;
-    max-width: 30vw;
+    width: 100%;
 }
