@@ -16,11 +16,16 @@
     div.hero p {
         max-width: 325px;
     }
-    div.hero,
+    div.hero {
+        margin: 40px;
+    }
     div.projects,
     div.skills,
     div.contactForm {
-        margin: 40px;
+        margin: 60px 40px 40px 40px;
+    }
+    footer.footer {
+        margin: 40px 0 20px 40px;
     }
     div.work {
         padding: 10px;
@@ -57,7 +62,6 @@
     }
     div.work {
         padding-right: 0;
-        padding-left: 15px;
     }
 }
 @media screen and (max-width: 592px) {
@@ -67,6 +71,23 @@
     }
     div.card-body-right {
         max-width: 100%;
+    }
+    div.hero {
+        margin: 20px;
+    }
+    div.projects,
+    div.skills,
+    div.contactForm {
+        margin: 60px 20px 20px 20px;
+    }
+    div.work {
+        margin-top: 60px;
+    }
+    footer.footer {
+        margin: 40px 0 20px 20px;
+    }
+    div.work div.card-body {
+        padding: 10px;
     }
 }
 @media screen and (max-width: 575px) {
