@@ -1,8 +1,57 @@
 .footer {
-    margin:  50px 85px 70px 50px;
+    margin: 50px 85px 60px 50px;
 }
 
 footer .footer-text {
     color: #f3f3f3;
     max-width: 30rem;
+}
+
+.animated-box {
+    width: 80%;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    color: #ffffff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 4px;
+    position: relative; /* To allow for the animation, but not used for positioning */
+    overflow: hidden;
+    border: 2px solid transparent; /* Initial border state */
+}
+
+/* Animated box with a gradient border effect */
+.animated-box.in {
+    animation: gradient-animation 4s ease-in-out infinite, frame-enter 1s forwards ease-in-out;
+}
+
+/* Gradient animation for border */
+@keyframes gradient-animation {
+    0% {
+        border-color: #00F260;
+    }
+    50% {
+        border-color: #0575E6;
+    }
+    100% {
+        border-color: #00F260;
+    }
+}
+
+/* Frame animation (making the "frame" appear) */
+@keyframes frame-enter {
+    0% {
+        border-width: 2px;
+    }
+    25% {
+        border-width: 5px;
+    }
+    50% {
+        border-width: 8px;
+    }
+    75% {
+        border-width: 5px;
+    }
+    100% {
+        border-width: 2px;
+    }
 }

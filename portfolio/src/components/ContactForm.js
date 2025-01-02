@@ -128,7 +128,7 @@ export default function ContactForm() {
                     {errors.checkEmail && <span className="error-text">{errors.checkEmail}</span>}
                 </Form.Group>
 
-                <Button variant="primary" type="submit">
+                <Button className="custom-button" variant="primary" type="submit">
                     Submit
                 </Button>
 

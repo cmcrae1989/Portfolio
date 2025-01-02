@@ -19,6 +19,10 @@
     div.hero {
         margin: 40px;
     }
+    .navbar-brand {
+        color: #f3f3f3; /* Active link color (e.g., white) */
+        font-variant: small-caps;
+    }
     div.projects,
     div.skills,
     div.contactForm {
