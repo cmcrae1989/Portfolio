@@ -6,7 +6,7 @@ import {faAngular, faCss, faHtml5, faJava, faPhp, faReact} from "@fortawesome/fr
 export default function Skills() {
     return (
         <div className="skills" id="skills">
-            <h1>Skills</h1>
+            <h2>Skills</h2>
             <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link1">
                 <Row>
                     <Col sm={4}>

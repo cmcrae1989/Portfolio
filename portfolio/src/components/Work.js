@@ -4,7 +4,7 @@ import {Card} from "react-bootstrap";
 export default function work() {
     return (
         <div className="work" id="work">
-            <h1>Work</h1>
+            <h2>Work</h2>
             <Card>
                 <Card.Body>
                     <div className="card-body-left">

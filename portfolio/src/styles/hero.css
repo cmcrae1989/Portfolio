@@ -2,12 +2,12 @@
     background-color: #222529;
     margin: 70px 85px;
 }
-div.hero p.grey-text {
+.hero p.grey-text {
     color: #9a9999;
     font-size: 1.3em;
     margin-bottom: 30px;
 }
-div.hero h1 {
+.hero h1 {
     color: white;
     font-size: 3em;
     margin: 0;
@@ -15,7 +15,7 @@ div.hero h1 {
     font-weight: bold;
 }
 
-div.hero h2 {
+.hero h2 {
     color: white;
 }
 div.hero p {
