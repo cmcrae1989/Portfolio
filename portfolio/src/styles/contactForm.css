@@ -8,7 +8,7 @@ div.contactForm h1 {
 }
 
 div.mb-3 {
-    max-width: 600px;
+    /*max-width: 600px;*/
 }
 
 div.mb-3 label {
@@ -19,6 +19,7 @@ span.error-text {
 }
 .form-control {
     margin-bottom: 10px;
+    width: 100%;
 }
 .custom-button {
     margin-top: 20px;

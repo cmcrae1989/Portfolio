@@ -29,7 +29,7 @@
         margin: 60px 40px 40px 40px;
     }
     footer.footer {
-        margin: 40px 0 20px 40px;
+        margin: 40px 40px 20px 40px;
     }
     div.work {
         padding: 10px;
@@ -81,14 +81,15 @@
     }
     div.projects,
     div.skills,
-    div.contactForm {
+    div.contactForm,
+    footer.footer {
         margin: 60px 20px 20px 20px;
     }
     div.work {
         margin-top: 60px;
     }
     footer.footer {
-        margin: 40px 0 20px 20px;
+        /*margin: 15px 5px; !* Tight margins for mobile *!*/
     }
     div.animated-box {
         padding: 10px;

@@ -63,10 +63,6 @@ footer .footer-text {
 }
 
 @media screen and (max-width: 1080px) {
-    footer.footer {
-        margin: 40px 40px 40px 40px;  /* Adjust margins for smaller screens */
-    }
-
     footer .footer-text {
         font-size: 0.9rem; /* Slightly smaller text */
         max-width: 90%; /* Ensure it doesn't exceed the available space */
@@ -80,9 +76,6 @@ footer .footer-text {
 }
 
 @media screen and (max-width: 930px) {
-    footer.footer {
-        margin: 30px 20px; /* Further reduce margins */
-    }
 
     footer .footer-text {
         font-size: 0.85rem; /* Make text slightly smaller for smaller screens */
@@ -96,10 +89,6 @@ footer .footer-text {
 }
 
 @media screen and (max-width: 865px) {
-    footer.footer {
-        margin: 20px 10px;  /* Even smaller margins on very small screens */
-    }
-
     footer .footer-text {
         font-size: 0.8rem; /* Small text size for tiny screens */
         max-width: 100%; /* Allow footer text to use full width */
@@ -112,10 +101,6 @@ footer .footer-text {
 }
 
 @media screen and (max-width: 629px) {
-    footer.footer {
-        margin: 15px 5px; /* Tight margins for mobile */
-    }
-
     footer .footer-text {
         font-size: 0.75rem; /* Very small text size */
         max-width: 100%; /* Ensure text is fully responsive */
@@ -128,10 +113,6 @@ footer .footer-text {
 }
 
 @media screen and (max-width: 592px) {
-    footer.footer {
-        margin: 10px 5px; /* Ultra-small margins for very small screens */
-    }
-
     footer .footer-text {
         font-size: 0.7rem; /* Extremely small font size for mobile devices */
         max-width: 100%;

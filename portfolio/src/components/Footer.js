@@ -5,9 +5,10 @@ export default function Footer() {
     return (
         <footer className="footer">
             <div className="animated-box in">
-                <p className="footer-text">Loosely designed in Figma and coded in Visual Studio Code by yours truly.
-                    Built
-                    with Next.js and Tailwind CSS, deployed with Vercel. All text is set in the Inter typeface.</p>
+                <p className="footer-text">Built
+                    with React.js and CSS. Site is not hooked up to a back-end,
+                    so do not expect an email back unless emailing me directly!
+                </p>
             </div>
 
         </footer>
