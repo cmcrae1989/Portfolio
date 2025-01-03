@@ -8,7 +8,6 @@ footer .footer-text {
 }
 
 .animated-box {
-    width: 80%;
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
     color: #ffffff;
     padding: 30px;
@@ -53,5 +52,93 @@ footer .footer-text {
     }
     100% {
         border-width: 2px;
+    }
+}
+
+
+/* Footer Text */
+footer .footer-text {
+    font-size: 1rem;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1080px) {
+    footer.footer {
+        margin: 40px 40px 40px 40px;  /* Adjust margins for smaller screens */
+    }
+
+    footer .footer-text {
+        font-size: 0.9rem; /* Slightly smaller text */
+        max-width: 90%; /* Ensure it doesn't exceed the available space */
+        margin: 0 auto;  /* Center the text */
+    }
+
+    .animated-box {
+        padding: 20px;
+        font-size: 0.9rem; /* Adjust font size for smaller screens */
+    }
+}
+
+@media screen and (max-width: 930px) {
+    footer.footer {
+        margin: 30px 20px; /* Further reduce margins */
+    }
+
+    footer .footer-text {
+        font-size: 0.85rem; /* Make text slightly smaller for smaller screens */
+        max-width: 90%; /* Ensure responsiveness */
+    }
+
+    .animated-box {
+        padding: 15px;  /* Reduce padding */
+        font-size: 0.85rem;  /* Smaller font size */
+    }
+}
+
+@media screen and (max-width: 865px) {
+    footer.footer {
+        margin: 20px 10px;  /* Even smaller margins on very small screens */
+    }
+
+    footer .footer-text {
+        font-size: 0.8rem; /* Small text size for tiny screens */
+        max-width: 100%; /* Allow footer text to use full width */
+    }
+
+    .animated-box {
+        padding: 10px;
+        font-size: 0.8rem; /* Small font size for small screens */
+    }
+}
+
+@media screen and (max-width: 629px) {
+    footer.footer {
+        margin: 15px 5px; /* Tight margins for mobile */
+    }
+
+    footer .footer-text {
+        font-size: 0.75rem; /* Very small text size */
+        max-width: 100%; /* Ensure text is fully responsive */
+    }
+
+    .animated-box {
+        padding: 10px;
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (max-width: 592px) {
+    footer.footer {
+        margin: 10px 5px; /* Ultra-small margins for very small screens */
+    }
+
+    footer .footer-text {
+        font-size: 0.7rem; /* Extremely small font size for mobile devices */
+        max-width: 100%;
+    }
+
+    .animated-box {
+        padding: 8px;
+        font-size: 0.7rem;
     }
 }

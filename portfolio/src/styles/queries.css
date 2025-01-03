@@ -20,7 +20,7 @@
         margin: 40px;
     }
     .navbar-brand {
-        color: #f3f3f3; /* Active link color (e.g., white) */
+        color: #f3f3f3;
         font-variant: small-caps;
     }
     div.projects,
@@ -89,6 +89,12 @@
     }
     footer.footer {
         margin: 40px 0 20px 20px;
+    }
+    div.animated-box {
+        padding: 10px;
+    }
+    div.animated-box p.footer-text {
+        margin: 0;
     }
     div.work div.card-body {
         padding: 10px;
