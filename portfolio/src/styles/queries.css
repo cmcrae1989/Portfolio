@@ -21,7 +21,9 @@
     }
     .navbar-brand {
         color: #f3f3f3;
-        font-variant: small-caps;
+        font-weight: bold;
+        font-size: 1.2em;
+        letter-spacing: 1px;
     }
     div.projects,
     div.skills,
@@ -33,6 +35,9 @@
     }
     div.card-body.cardBody {
         padding: 25px;
+    }
+    div.cardBody h3.secondary-heading {
+        margin-top: 20px;
     }
     div.card-body.cardBody p,
     div.card-body.cardBody ul {
@@ -79,6 +84,13 @@
     }
 }
 @media screen and (max-width: 592px) {
+    div.cardBody.card-body p {
+        font-size: 1.1rem;
+    }
+    div.card-body-right p.body-text {
+        font-size: 1.1rem;
+    }
+
     .mx-5 {
         justify-content: start;
         margin: 0;

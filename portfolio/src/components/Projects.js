@@ -25,7 +25,7 @@ export default function Projects() {
                                     </p>
                                 </div>
                                 <div>
-                                    <h3>Technology used</h3>
+                                    <h3 className="secondary-heading">Technology used</h3>
                                     <ul>
                                         <li>javaFX</li>
                                         <li>Gradle</li>
@@ -50,7 +50,7 @@ export default function Projects() {
                                         </p>
                                     </div>
                                     <div>
-                                        <h3>Technology used</h3>
+                                        <h3 className="secondary-heading">Technology used</h3>
                                         <ul>
                                             <li>javaFX</li>
                                             <li>Gradle</li>
@@ -75,7 +75,7 @@ export default function Projects() {
                                     </p>
                                 </div>
                                 <div>
-                                    <h3>Technology used</h3>
+                                    <h3 className="secondary-heading">Technology used</h3>
                                     <ul>
                                         <li>php</li>
                                         <li>MySQL</li>
