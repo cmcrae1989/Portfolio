@@ -10,10 +10,10 @@ export default function Projects() {
             <Accordion>
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>Money Tracker App</Accordion.Header>
-                    <Accordion.Body>
+                    <Accordion.Body className="accordionBody">
                         <Card>
                             <Card.Img src="moneyTracker.png"/>
-                            <Card.Body>
+                            <Card.Body className="cardBody">
                                 <div>
                                     <h3>Description</h3>
                                     <p>MoneyTrackerApp is a software program that allows users to track
@@ -38,10 +38,10 @@ export default function Projects() {
                 </Accordion.Item>
                 <Accordion.Item eventKey="1">
                     <Accordion.Header>Easiest Game</Accordion.Header>
-                    <Accordion.Body>
+                    <Accordion.Body className="accordionBody">
                         <Card>
                             <Card.Img src="EasiestGame.png"/>
-                                <Card.Body>
+                                <Card.Body className="cardBody">
                                     <div>
                                         <h3>Description</h3>
                                         <p>Javafx program based off of https://www.coolmathgames.com/0-worlds-hardest-game.
@@ -62,10 +62,10 @@ export default function Projects() {
                 </Accordion.Item>
                 <Accordion.Item eventKey="2">
                     <Accordion.Header>Run Tracker</Accordion.Header>
-                    <Accordion.Body>
+                    <Accordion.Body className="accordionBody">
                         <Card>
                             <Card.Img src="runApp.png"/>
-                            <Card.Body>
+                            <Card.Body className="cardBody">
                                 <div>
                                     <h3>Description</h3>
                                     <p>Run Tracker is a website that allows a user to create credentials, login,

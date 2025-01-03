@@ -53,7 +53,7 @@ export default function Skills() {
                         <Tab.Content>
                             <Tab.Pane eventKey="#link1">
                                 <Card>
-                                    <Card.Body>
+                                    <Card.Body className="cardBody">
                                         <Card.Title>
                                             <h3 className="grey-text">Experience: 1.5 years self-taught</h3>
                                         </Card.Title>
@@ -69,7 +69,7 @@ export default function Skills() {
                             </Tab.Pane>
                             <Tab.Pane eventKey="#link2">
                                 <Card>
-                                    <Card.Body>
+                                    <Card.Body className="cardBody">
                                         <Card.Title>
                                             <h3 className="grey-text">Experience: JavaScript Frameworks Class</h3>
                                         </Card.Title>
@@ -83,7 +83,7 @@ export default function Skills() {
                             </Tab.Pane>
                             <Tab.Pane eventKey="#link3">
                                 <Card>
-                                    <Card.Body>
+                                    <Card.Body className="cardBody">
                                         <Card.Title>
                                             <h3 className="grey-text">Experience: Java Class for Three Semesters</h3>
                                         </Card.Title>
@@ -97,7 +97,7 @@ export default function Skills() {
                             </Tab.Pane>
                             <Tab.Pane eventKey="#link4">
                                 <Card>
-                                    <Card.Body>
+                                    <Card.Body className="cardBody">
                                         <Card.Title>
                                             <h3 className="grey-text">Experience: Two Semesters of PHP Class</h3>
                                         </Card.Title>
@@ -112,7 +112,7 @@ export default function Skills() {
                             </Tab.Pane>
                             <Tab.Pane eventKey="#link5">
                                 <Card>
-                                    <Card.Body>
+                                    <Card.Body className="cardBody">
                                         <Card.Title>
                                             <h3 className="grey-text">Experience: 1.5 years self-taught plus two classes</h3>
                                         </Card.Title>
@@ -127,7 +127,7 @@ export default function Skills() {
                             </Tab.Pane>
                             <Tab.Pane eventKey="#link6">
                                 <Card>
-                                    <Card.Body>
+                                    <Card.Body className="cardBody">
                                         <Card.Title>
                                             <h3 className="grey-text">Experience: 1.5 years self-taught plus two classes</h3>
                                         </Card.Title>

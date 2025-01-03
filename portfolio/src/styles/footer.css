@@ -64,22 +64,22 @@ footer .footer-text {
 
 @media screen and (max-width: 1080px) {
     footer .footer-text {
-        font-size: 0.9rem; /* Slightly smaller text */
-        max-width: 90%; /* Ensure it doesn't exceed the available space */
-        margin: 0 auto;  /* Center the text */
+        font-size: 0.9rem;
+        max-width: 90%;
+        margin: 0 auto;
     }
 
     .animated-box {
         padding: 20px;
-        font-size: 0.9rem; /* Adjust font size for smaller screens */
+        font-size: 0.9rem;
     }
 }
 
 @media screen and (max-width: 930px) {
 
     footer .footer-text {
-        font-size: 0.85rem; /* Make text slightly smaller for smaller screens */
-        max-width: 90%; /* Ensure responsiveness */
+        font-size: 0.85rem;
+        max-width: 90%;
     }
 
     .animated-box {
@@ -114,7 +114,7 @@ footer .footer-text {
 
 @media screen and (max-width: 592px) {
     footer .footer-text {
-        font-size: 0.7rem; /* Extremely small font size for mobile devices */
+        font-size: 0.7rem;
         max-width: 100%;
     }
 

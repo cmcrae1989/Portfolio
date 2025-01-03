@@ -28,6 +28,16 @@
     div.contactForm {
         margin: 60px 40px 40px 40px;
     }
+    div.accordion-body.accordionBody {
+        padding: 25px;
+    }
+    div.card-body.cardBody {
+        padding: 25px;
+    }
+    div.card-body.cardBody p,
+    div.card-body.cardBody ul {
+        margin-bottom: 0;
+    }
     footer.footer {
         margin: 40px 40px 20px 40px;
     }
@@ -85,8 +95,17 @@
     footer.footer {
         margin: 60px 20px 20px 20px;
     }
+    div.accordion-body.accordionBody {
+        padding: 15px;
+    }
+    div.card-body.cardBody {
+        padding: 15px;
+    }
     div.work {
         margin-top: 60px;
+    }
+    div.work h1 {
+        padding-left: 10px;
     }
     footer.footer {
         /*margin: 15px 5px; !* Tight margins for mobile *!*/
