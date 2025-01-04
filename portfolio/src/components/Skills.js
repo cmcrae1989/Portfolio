@@ -13,39 +13,51 @@ export default function Skills() {
                         <ListGroup>
                             <ListGroup.Item variant="dark" action href="#link1">
                                 <div className="listItemContainer">
-                                    <FontAwesomeIcon icon={faReact} />
+                                    <div className="icon-container">
+                                        <FontAwesomeIcon icon={faReact}/>
+                                    </div>
                                     <p>React.js</p>
                                 </div>
                             </ListGroup.Item>
                             <ListGroup.Item variant="dark" action href="#link2">
                                 <div className="listItemContainer">
-                                    <FontAwesomeIcon icon={faAngular} />
+                                    <div className="icon-container">
+                                        <FontAwesomeIcon icon={faAngular}/>
+                                    </div>
                                     <p>Angular</p>
                                 </div>
                             </ListGroup.Item>
                             <ListGroup.Item variant="dark" action href="#link3">
                                 <div className="listItemContainer">
-                                    <FontAwesomeIcon icon={faJava} />
-                                <p>Java</p>
+                                    <div className="icon-container">
+                                        <FontAwesomeIcon icon={faJava}/>
+                                    </div>
+                                    <p>Java</p>
                                 </div>
                             </ListGroup.Item>
                             <ListGroup.Item variant="dark" action href="#link4">
-                                <div className="listItemContainer">
-                                    <FontAwesomeIcon icon={faPhp} />
+                            <div className="listItemContainer">
+                                    <div className="icon-container">
+                                        <FontAwesomeIcon icon={faPhp} />
+                                    </div>
                                     <p>PHP</p>
                                 </div>
                             </ListGroup.Item>
                             <ListGroup.Item variant="dark" action href="#link5">
                                 <div className="listItemContainer">
-                                    <FontAwesomeIcon icon={faHtml5} />
-                                <p>HTML</p>
+                                    <div className="icon-container">
+                                        <FontAwesomeIcon icon={faHtml5}/>
+                                    </div>
+                                    <p>HTML</p>
                                 </div>
                             </ListGroup.Item>
                             <ListGroup.Item variant="dark" action href="#link6">
-                                <div className="listItemContainer">
-                                    <FontAwesomeIcon icon={faCss} />
-                                    <p>CSS</p>
+                            <div className="listItemContainer">
+                                <div className="icon-container">
+                                    <FontAwesomeIcon icon={faCss}/>
                                 </div>
+                                <p>CSS</p>
+                            </div>
                             </ListGroup.Item>
                         </ListGroup>
                     </Col>
