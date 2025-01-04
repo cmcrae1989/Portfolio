@@ -108,6 +108,18 @@
         cursor: pointer;
         transition: .2s;
     }
+    div.cardBody.card-body div.card-title h3.grey-text {
+        font-size: 1.2em;
+    }
+    div.card-body p.date-text {
+        font-size: 1em;
+    }
+    div.card-body.card-body h3.body-text {
+        font-size: 1.3em;
+    }
+    div.card-body.card-body p.body-text {
+        font-size: 1em;
+    }
     div.cardBody.card-body p {
         font-size: 1.1em;
     }
@@ -145,7 +157,7 @@
     div.work {
         margin-top: 60px;
     }
-    div.work h1 {
+    div.work h2 {
         padding-left: 10px;
     }
     div.animated-box {

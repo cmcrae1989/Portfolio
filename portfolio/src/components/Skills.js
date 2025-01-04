@@ -102,7 +102,7 @@ export default function Skills() {
                                             <h3 className="grey-text">Experience: Two Semesters of PHP Class</h3>
                                         </Card.Title>
                                         <p>
-                                            php is another language that has quickly become a favourite of
+                                            PHP is another language that has quickly become a favourite of
                                             mine. It has a very unique syntax that I've grown to enjoy, and
                                             it is so easily integrated into almost any web project. my third
                                             project listed above was using php.
