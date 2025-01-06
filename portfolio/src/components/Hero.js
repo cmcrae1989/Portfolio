@@ -9,7 +9,7 @@ export default function Hero() {
             <h1>Cameron McRae</h1>
             <h2><Typewriter text="Web Developer" delay={100} /></h2>
             //TODO change p text later
-            <p className="grey-text">I build accessible, pixel-perfect digital experiences for the web.</p>
+            <p className="grey-text">I craft accessible, flawless digital experiences for the web.</p>
             <Header />
         </div>
     );

@@ -120,7 +120,7 @@ export default function ContactForm() {
                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
                     <Form.Check
                         type="checkbox"
-                        label="Check if you'd like a reply at the email listed above"
+                        label="Check if you'd like to recieve a reply."
                         name="checkEmail"
                         checked={formData.checkEmail} // Bind checkbox to state
                         onChange={handleChange} // Update state on change

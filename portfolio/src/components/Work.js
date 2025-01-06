@@ -13,9 +13,9 @@ export default function work() {
                     <div className="card-body-right">
                         <h3 className="body-text">St. Clair College</h3>
                         <p className="body-text">
-                            Currently working as a tutor for the Mobile Applications Development
-                            program. I help students grasp fundamental concepts in Angular, JavaScript, HTML,
-                            CSS, PHP, MySQL, and Java.
+                            I currently tutor students in the Mobile Applications
+                            Development program, guiding them through core concepts
+                            in Angular, JavaScript, HTML, CSS, PHP, MySQL, and Java.
                         </p>
                     </div>
                 </Card.Body>
@@ -28,10 +28,11 @@ export default function work() {
                     <div className="card-body-right">
                         <h3 className="body-text">Family Respite Services</h3>
                         <p className="body-text">
-                            Currently working as a Direct Support Provider for families
-                            in need of assistance, providing relief in various forms. Work
-                            to encourage good habits in children with intellectual disabilities
-                            through positive reinforcement and encouragement.
+                            I currently serve as a Direct Support Provider, offering
+                            assistance and relief to families in need. My role
+                            involves promoting positive habits in children with
+                            intellectual disabilities through encouragement, positive
+                            reinforcement, and tailored support.
                         </p>
                     </div>
                 </Card.Body>
@@ -44,9 +45,9 @@ export default function work() {
                     <div className="card-body-right">
                         <h3 className="body-text">Home Instead</h3>
                         <p className="body-text">
-                            Previous employment involved working with vulnerable populations in a
-                            caregiver position. Responsibilities included respite-care, supervision,
-                            administration of medication, and providing personal care throughout daily
+                            In my previous role, I worked as a caregiver for vulnerable
+                            populations, providing respite care, supervision, medication
+                            administration, and assistance with personal care during daily
                             activities.
                         </p>
                     </div>

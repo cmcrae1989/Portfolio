@@ -16,12 +16,12 @@ export default function Projects() {
                             <Card.Body className="cardBody">
                                 <div>
                                     <h3>Description</h3>
-                                    <p>MoneyTrackerApp is a software program that allows users to track
-                                        their finances in an effective and visually pleasing manner. Once
-                                        signed up users can add, update and delete transactions. This
-                                        program even allows enough flexibility for users to add and delete
-                                        their own unique categories for future transactions. Follow the
-                                        Getting Started Guide below to get this app up and running!
+                                    <p>MoneyTrackerApp is a user-friendly software that helps
+                                        individuals track their finances in an organized and
+                                        visually appealing way. After signing up, users can
+                                        easily add, update, and delete transactions. The app
+                                        also offers flexibility, allowing users to create and
+                                        manage custom categories for future transactions.
                                     </p>
                                 </div>
                                 <div>
@@ -44,9 +44,10 @@ export default function Projects() {
                                 <Card.Body className="cardBody">
                                     <div>
                                         <h3>Description</h3>
-                                        <p>Javafx program based off of https://www.coolmathgames.com/0-worlds-hardest-game.
-                                            This was a group project where I collaborated with two other students.
-                                            My portion involved level design/implementation and all in-game mechanics
+                                        <p>This JavaFX program is based on the game from Cool Math Games.
+                                            It was a group project where I collaborated with two other
+                                            students. My responsibilities included designing and
+                                            implementing the levels, as well as developing all in-game mechanics.
                                         </p>
                                     </div>
                                     <div>
@@ -68,16 +69,16 @@ export default function Projects() {
                             <Card.Body className="cardBody">
                                 <div>
                                     <h3>Description</h3>
-                                    <p>Run Tracker is a website that allows a user to create credentials, login,
-                                        and start recording/tracking specific running metrics. These metrics are
-                                        stored in a database to be displayed on the home screen. Specific runs
-                                        can be created and deleted.
+                                    <p>Run Tracker is a website that enables users to create accounts,
+                                        log in, and track specific running metrics. These metrics are
+                                        stored in a database and displayed on the home screen. Users
+                                        can create, view, and delete individual run entries as needed.
                                     </p>
                                 </div>
                                 <div>
                                     <h3 className="secondary-heading">Technology used</h3>
                                     <ul>
-                                        <li>php</li>
+                                        <li>PHP</li>
                                         <li>MySQL</li>
                                         <li>CSS</li>
                                     </ul>

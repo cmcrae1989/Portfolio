@@ -70,11 +70,10 @@ export default function Skills() {
                                             <h3 className="grey-text">Experience: 1.5 years self-taught</h3>
                                         </Card.Title>
                                         <p>
-                                            Shortly after learning the basics of html, css, and
-                                            javaScript I moved on to learn React.js. This is where I
-                                            built the majority of my web applications. I quickly fell
-                                            in love with its simple learning curve, ease of use and
-                                            its broad array of features.
+                                            After mastering the fundamentals of HTML, CSS, and JavaScript, I
+                                            transitioned to learning React.js, where I developed the majority
+                                            of my web applications. I quickly grew fond of its intuitive
+                                            learning curve, user-friendly nature, and powerful feature set.
                                         </p>
                                     </Card.Body>
                                 </Card>
@@ -86,9 +85,9 @@ export default function Skills() {
                                             <h3 className="grey-text">Experience: JavaScript Frameworks Class</h3>
                                         </Card.Title>
                                         <p>
-                                            This is my second go-to JavaScript framework. There is definitely
-                                            a learning curve here, but once adapted to the workflow there
-                                            are seemingly endless possibilities to this front-end technology
+                                            This is my second preferred JavaScript framework. While there’s a learning
+                                            curve, once you adapt to its workflow, the possibilities with this front-end
+                                            technology feel endless.
                                         </p>
                                     </Card.Body>
                                 </Card>
@@ -100,9 +99,9 @@ export default function Skills() {
                                             <h3 className="grey-text">Experience: Java Class for Three Semesters</h3>
                                         </Card.Title>
                                         <p>
-                                            Although its not specifically a web technology, java has
-                                            become one of my favourite programming languages. Two of my
-                                            projects listed above were build almost explicitly using java
+                                            While not traditionally a web technology, Java has become one of my
+                                            favorite programming languages. Two of the projects listed above were
+                                            built primarily using Java.
                                         </p>
                                     </Card.Body>
                                 </Card>
@@ -114,10 +113,10 @@ export default function Skills() {
                                             <h3 className="grey-text">Experience: Two Semesters of PHP Class</h3>
                                         </Card.Title>
                                         <p>
-                                            PHP is another language that has quickly become a favourite of
-                                            mine. It has a very unique syntax that I've grown to enjoy, and
-                                            it is so easily integrated into almost any web project. my third
-                                            project listed above was using php.
+                                            PHP is another language I’ve quickly grown fond of. Its unique syntax
+                                            is something I enjoy, and its seamless integration into virtually any
+                                            web project makes it incredibly versatile. My third project listed above
+                                            was built using PHP.
                                         </p>
                                     </Card.Body>
                                 </Card>
@@ -129,10 +128,10 @@ export default function Skills() {
                                             <h3 className="grey-text">Experience: 1.5 years self-taught plus two classes</h3>
                                         </Card.Title>
                                         <p>
-                                            HTML is one of the first web technologies that I learned to use, it is
-                                            simple, easy to use, and very easy to read. After 1.5 years of learning
-                                            HTML in tandem with CSS, I had multiple courses in school that helped
-                                            solidify and build upon my foundational knowledge.
+                                            HTML was one of the first web technologies I learned, and I appreciate
+                                            its simplicity, ease of use, and readability. After 1.5 years of studying
+                                            HTML alongside CSS, I took several courses that further solidified and
+                                            expanded my foundational knowledge.
                                         </p>
                                     </Card.Body>
                                 </Card>
@@ -144,10 +143,10 @@ export default function Skills() {
                                             <h3 className="grey-text">Experience: 1.5 years self-taught plus two classes</h3>
                                         </Card.Title>
                                         <p>
-                                            CSS is one of the first web technologies that I learned to use, it is
-                                            simple, easy to use, and very easy to read. After 1.5 years of learning
-                                            CSS in tandem with HTML, I had multiple courses in school that helped
-                                            solidify and build upon my foundational knowledge.
+                                            CSS was one of the first web technologies I mastered, and I
+                                            appreciate its simplicity, ease of use, and readability. After
+                                            1.5 years of learning CSS alongside HTML, I took several courses
+                                            that helped solidify and expand my foundational knowledge.
                                         </p>
                                     </Card.Body>
                                 </Card>

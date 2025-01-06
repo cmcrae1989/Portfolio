@@ -6,8 +6,9 @@ export default function Footer() {
         <footer className="footer">
             <div className="animated-box in">
                 <p className="footer-text">Built
-                    with React.js and CSS. Site is not hooked up to a back-end,
-                    so do not expect a message back unless explicitly emailing fstcam@outlook.com.
+                    with React, React-Bootstrap, and CSS. The site is not connected
+                    to a back-end, so please note that you will not receive a
+                    response unless you email directly at fstcam@outlook.com.
                 </p>
             </div>
 
